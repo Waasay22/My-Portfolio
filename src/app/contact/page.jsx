@@ -67,7 +67,7 @@ const ContactPage = () => {
           ref={form}
           className="h-3/4  lg:h-full lg:w-1/2 bg-red-50 rounded-xl text-lg lg:text-2xl flex flex-col gap-6 lg:gap-8 justify-center p-8 lg:p-24"
         >
-          <span class="">Dear Waasay,</span>
+          <span class="">Dear R Waasay,</span>
           <textarea
             rows={6}
             className=" bg-transparent border-b-2 border-b-black outline-none resize-none"
