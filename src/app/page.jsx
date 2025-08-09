@@ -15,13 +15,13 @@ const Homepage = () => {
     >
       <div className="h-full flex flex-col lg:flex-row px-4 sm:px-8 md:px-12 lg:px-20 xl:px-48">
         {/* IMAGE CONTAINER */}
-        <div className="h-1/2 lg:h-full lg:w-1/2 relative">
+        <div className="h-1/3 lg:h-1/2 lg:h-full lg:w-1/2 relative">
           <Image src="/hero2.png" alt="" fill className="object-contain" />
         </div>
         {/* TEXT CONTAINER */}
-        <div className="h-1/2 lg:h-full lg:w-1/2 flex flex-col gap-8 items-center justify-center">
+        <div className="h-2/3 lg:h-1/2 lg:h-full lg:w-1/2 flex flex-col gap-4 lg:gap-8 items-center justify-center">
           {/* TITLE */}
-          <h1 className="text-4xl md:text-6xl font-bold">
+          <h1 className="text-3xl  lg:text-6xl font-bold">
             Turning Ideas into Powerful Web Experiences
           </h1>
           {/* DESC */}
@@ -30,13 +30,13 @@ const Homepage = () => {
           </p>
           {/* BUTTONS */}
           <div className="w-full flex gap-4">
-            <Link href="http://localhost:3000/portfolio">
-            <button className="p-4 rounded-lg ring-1 ring-black bg-black text-white">
+            <Link href="https://my-portfolio-zeta-virid-49.vercel.app//portfolio">
+            <button className="p-2 lg:p-4 rounded-lg ring-1 ring-black bg-black text-white">
               View My Work
             </button>
             </Link>
-            <Link href="http://localhost:3000/contact">
-            <button className="p-4 rounded-lg ring-1 ring-black">
+            <Link href="https://my-portfolio-zeta-virid-49.vercel.app//contact">
+            <button className="p-2 lg:p-4 rounded-lg ring-1 ring-black">
               Contact Me
             </button>
             </Link>
