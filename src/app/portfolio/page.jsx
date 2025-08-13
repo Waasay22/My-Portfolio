@@ -20,6 +20,14 @@ const items = [
     desc: "MatchMe is a real-time chat application developed with Next.js and Socket.IO, implementing secure JWT-based authentication and live messaging.",
     img: "/Match Me.png",
     link: "https://match-me-app-self.vercel.app/",
+  },
+  {
+    id: 3,
+    color: "from-violet-300 to-purple-300",
+    title: "Smart Chat",
+    desc: "SmartChat is an AI-powered chat app built with Next.js and LangChain, featuring real-time messaging, vector memory, and OpenAI integration.",
+    img: "/SmartChat.png",
+    link: "https://ai-chat-bot-black-pi.vercel.app/",
   }
 ];
 
@@ -27,7 +35,7 @@ const PortfolioPage = () => {
   const ref = useRef();
 
   const { scrollYProgress } = useScroll({ target: ref });
-  const x = useTransform(scrollYProgress, [0, 1], ["0%", "-67%"]);
+  const x = useTransform(scrollYProgress, [0, 1], ["0%", "-75%"]);
 
   return (
     <motion.div
